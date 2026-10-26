@@ -412,7 +412,7 @@ def main():
     # ---------------------------------------------------------
 
     print("=" * 70)
-    print("AutoPlus AI NLP Pipeline")
+    print("Vinly AI NLP Pipeline")
     print("=" * 70)
     print()
     print("Введите сообщение клиента.")

@@ -20,7 +20,7 @@ from normalizer import normalize_intent
 MODEL_PATH = r"models\Qwen3-8B"
 
 app = FastAPI(
-    title="AutoPlus Qwen API",
+    title="Vinly Qwen API",
     version="1.0.0",
 )
 
@@ -84,7 +84,7 @@ if torch.cuda.is_available():
 # ============================================================
 
 SYSTEM_PROMPT = """
-Ты AI-парсер сообщений клиентов магазина автозапчастей AutoPlus.
+Ты AI-парсер сообщений клиентов магазина автозапчастей Vinly.
 
 Твоя задача — понять сообщение клиента и вернуть структурированный JSON.
 

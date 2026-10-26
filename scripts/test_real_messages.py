@@ -178,7 +178,7 @@ TESTS = [
 def main():
 
     print("=" * 70)
-    print("AUTOPLUS AI - REAL CUSTOMER MESSAGE TEST")
+    print("VINLY AI - REAL CUSTOMER MESSAGE TEST")
     print("=" * 70)
 
     problems = []
